@@ -1,0 +1,45 @@
+.browse-books-page {
+    padding-bottom: 40px;
+  }
+  
+  .page-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .browse-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .sidebar {
+    width: 250px;
+    flex-shrink: 0;
+  }
+  
+  .main-content {
+    flex: 1;
+  }
+  
+  .search-results-info {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+  }
+  
+  .search-term {
+    font-weight: bold;
+    color: #3498db;
+  }
+  
+  @media (max-width: 768px) {
+    .browse-container {
+      flex-direction: column;
+    }
+    
+    .sidebar {
+      width: 100%;
+    }
+  }
